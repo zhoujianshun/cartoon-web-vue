@@ -1,5 +1,11 @@
 # cartoon-web-vue
 
+## Server
+```
+https://github.com/zhoujianshun/Cartoon_server_nodejs
+```
+copy the ouput dir to server static dir
+
 ## Project setup
 ```
 npm install
