@@ -1,0 +1,24 @@
+$theme-main-color:#54A0FF;
+$theme-secondary-color:#FE723F;
+$theme-background-color:#ededed;
+
+$theme-text-main-color:#222222;
+$theme-text-secondary-color:#999999;
+
+$theme-text-000-color:#000;
+$theme-text-666-color:#666;
+$theme-text-888-color:#888;
+$theme-text-AAA-color:#AAA;
+$theme-text-FFF-color:#FFF;
+
+$theme-split-line-color:#eeeeee;
+
+
+@mixin common-button($background:$theme-main-color) {
+    border-radius: px2rem(8);
+    color: $theme-text-FFF-color;
+    font-size: px2rem(15);
+    background: $background;
+    line-height: px2rem(44);
+    height: px2rem(44);
+}
